@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.wrst.appconversor"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17bd58c8-18ac-47e9-b6eb-f5977ac351c9"
+      }
+    },
+    "owner": "wrst"
   }
 }
